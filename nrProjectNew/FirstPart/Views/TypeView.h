@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+
+@protocol TypeViewDelegate <NSObject>
+
+- (void)clickBookStore;
+
+@end
+
 @interface TypeView : UIView
 
-
-
+@property (nonatomic, assign) id<TypeViewDelegate>delegate;
 
 @end

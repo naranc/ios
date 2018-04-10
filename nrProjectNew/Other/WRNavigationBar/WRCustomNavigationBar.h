@@ -40,6 +40,11 @@
 - (void)wr_setRightButtonWithTitle:(NSString *)title titleColor:(UIColor *)titleColor;
 
 
+- (void)wr_setleftBtnFront;
+- (void)wr_setrightBtnFront;
+- (void)wr_setTitleFront;
+- (void)wr_setSubViewToFront;
+
 
 @end
 

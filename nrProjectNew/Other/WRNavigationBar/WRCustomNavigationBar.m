@@ -284,6 +284,25 @@
         return NO;
     }
 }
+- (void)wr_setleftBtnFront
+{
+    [self bringSubviewToFront:self.leftButton];
+}
+- (void)wr_setrightBtnFront
+{
+    [self bringSubviewToFront:self.rightButton];
+}
+- (void)wr_setTitleFront
+{
+    [self bringSubviewToFront:self.titleLable];
+}
+- (void)wr_setSubViewToFront
+{
+    [self bringSubviewToFront:self.leftButton];
+    [self bringSubviewToFront:self.rightButton];
+    [self bringSubviewToFront:self.titleLable];
+
+}
 
 @end
 

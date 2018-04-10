@@ -201,22 +201,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "nrProjectNew/Other/Expand/AFNetworkingUtil.m"
-            timestampString = "539059909.23864"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "184"
-            endingLineNumber = "184"
-            landmarkName = "+requestWithType:withUrlString:withParaments:withSuccessBlock:withFailureBlock:progress:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "nrProjectNew/LoginAndRegister/Controllers/RegisterViewController.m"
             timestampString = "537775419.143892"
             startingColumnNumber = "9223372036854775807"
@@ -377,13 +361,13 @@
                   symbolName = "__36-[HelpHerViewController doneButton:]_block_invoke"
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///newProject/nrNewProject/nrProjectNew/OperationPart/Controllers/HelpHerViewController.m"
-                  timestampString = "544951221.332918"
+                  urlString = "file:///naranNewProject/ios/nrProjectNew/OperationPart/Controllers/HelpHerViewController.m"
+                  timestampString = "545034888.801427"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "389"
                   endingLineNumber = "389"
-                  offsetFromSymbolStart = "1692">
+                  offsetFromSymbolStart = "1568">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -392,13 +376,13 @@
                   symbolName = "__36-[HelpHerViewController doneButton:]_block_invoke_2"
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///newProject/nrNewProject/nrProjectNew/OperationPart/Controllers/HelpHerViewController.m"
-                  timestampString = "544951221.334262"
+                  urlString = "file:///naranNewProject/ios/nrProjectNew/OperationPart/Controllers/HelpHerViewController.m"
+                  timestampString = "545034888.802865"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "389"
                   endingLineNumber = "389"
-                  offsetFromSymbolStart = "19">
+                  offsetFromSymbolStart = "28">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -426,7 +410,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nrProjectNew/FirstPart/Controllers/WishDetailViewController.m"
-            timestampString = "542612039.4124089"
+            timestampString = "545044312.207252"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "113"
@@ -505,13 +489,13 @@
                   symbolName = "__40-[DetailWishViewController refusebutton]_block_invoke"
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///newProject/nrNewProject/nrProjectNew/FirstPart/Controllers/DetailWishViewController.m"
-                  timestampString = "544951221.349624"
+                  urlString = "file:///naranNewProject/ios/nrProjectNew/FirstPart/Controllers/DetailWishViewController.m"
+                  timestampString = "545034888.817587"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "191"
                   endingLineNumber = "191"
-                  offsetFromSymbolStart = "450">
+                  offsetFromSymbolStart = "372">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -520,13 +504,13 @@
                   symbolName = "__40-[DetailWishViewController refusebutton]_block_invoke_2"
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///newProject/nrNewProject/nrProjectNew/FirstPart/Controllers/DetailWishViewController.m"
-                  timestampString = "544951221.350914"
+                  urlString = "file:///naranNewProject/ios/nrProjectNew/FirstPart/Controllers/DetailWishViewController.m"
+                  timestampString = "545034888.818868"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "192"
                   endingLineNumber = "192"
-                  offsetFromSymbolStart = "54">
+                  offsetFromSymbolStart = "64">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -570,7 +554,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nrProjectNew/FirstPart/Controllers/WishDetailViewController.m"
-            timestampString = "542612039.4125431"
+            timestampString = "545044312.207374"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
@@ -633,13 +617,13 @@
                   symbolName = "__42-[InputWayNumberViewController saveButton]_block_invoke"
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///newProject/nrNewProject/nrProjectNew/OperationPart/Controllers/InputWayNumberViewController.m"
-                  timestampString = "544951221.36669"
+                  urlString = "file:///naranNewProject/ios/nrProjectNew/OperationPart/Controllers/InputWayNumberViewController.m"
+                  timestampString = "545034888.8346601"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "113"
                   endingLineNumber = "113"
-                  offsetFromSymbolStart = "1608">
+                  offsetFromSymbolStart = "1500">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -648,13 +632,13 @@
                   symbolName = "__42-[InputWayNumberViewController saveButton]_block_invoke_2"
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///newProject/nrNewProject/nrProjectNew/OperationPart/Controllers/InputWayNumberViewController.m"
-                  timestampString = "544951221.367999"
+                  urlString = "file:///naranNewProject/ios/nrProjectNew/OperationPart/Controllers/InputWayNumberViewController.m"
+                  timestampString = "545034888.835873"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "113"
                   endingLineNumber = "113"
-                  offsetFromSymbolStart = "19">
+                  offsetFromSymbolStart = "24">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -762,7 +746,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nrProjectNew/FirstPart/Controllers/WishDetailViewController.m"
-            timestampString = "542612039.412684"
+            timestampString = "545044312.2075109"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "390"
@@ -778,7 +762,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nrProjectNew/FirstPart/Controllers/WishDetailViewController.m"
-            timestampString = "542612039.412724"
+            timestampString = "545044312.207551"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "370"
@@ -794,7 +778,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nrProjectNew/FirstPart/Controllers/WishDetailViewController.m"
-            timestampString = "542612039.412761"
+            timestampString = "545044312.207588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "388"
@@ -841,13 +825,13 @@
                   symbolName = "-[AidDetailViewController getMyApplyStatus]"
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///newProject/nrNewProject/nrProjectNew/FirstPart/Controllers/AidDetailViewController.m"
-                  timestampString = "544951221.396129"
+                  urlString = "file:///naranNewProject/ios/nrProjectNew/FirstPart/Controllers/AidDetailViewController.m"
+                  timestampString = "545034888.863238"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "63"
                   endingLineNumber = "63"
-                  offsetFromSymbolStart = "51">
+                  offsetFromSymbolStart = "100">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -856,13 +840,13 @@
                   symbolName = "__43-[AidDetailViewController getMyApplyStatus]_block_invoke"
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///newProject/nrNewProject/nrProjectNew/FirstPart/Controllers/AidDetailViewController.m"
-                  timestampString = "544951221.397523"
+                  urlString = "file:///naranNewProject/ios/nrProjectNew/FirstPart/Controllers/AidDetailViewController.m"
+                  timestampString = "545034888.864532"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "63"
                   endingLineNumber = "63"
-                  offsetFromSymbolStart = "19">
+                  offsetFromSymbolStart = "24">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -922,86 +906,6 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nrProjectNew/FirstPart/Views/CycleView/banner/SDCycleScrollView.m"
-            timestampString = "544433716.7767169"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "551"
-            endingLineNumber = "551"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "nrProjectNew/FirstPart/Views/CycleView/banner/SDCycleScrollView.m"
-            timestampString = "544433716.7768151"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "554"
-            endingLineNumber = "554"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "nrProjectNew/FirstPart/Views/CycleView/banner/SDCycleScrollView.m"
-            timestampString = "544433716.776878"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "555"
-            endingLineNumber = "555"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "nrProjectNew/FirstPart/Views/CycleView/banner/SDCycleScrollView.m"
-            timestampString = "544433716.776933"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "557"
-            endingLineNumber = "557"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "nrProjectNew/FirstPart/Views/CycleView/banner/SDCycleScrollView.m"
-            timestampString = "544433716.776983"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "560"
-            endingLineNumber = "560"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "nrProjectNew/FirstPart/Views/CycleView/banner/SDCycleScrollView.m"
             timestampString = "544433716.777032"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -1017,13 +921,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "nrProjectNew/FirstPart/Views/CycleView/banner/SDCycleScrollView.m"
-            timestampString = "544433716.777079"
+            filePath = "nrProjectNew/FirstPart/Views/TypeView.m"
+            timestampString = "545044312.207696"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "547"
-            endingLineNumber = "547"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "-typeTBView"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1033,13 +937,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "nrProjectNew/FirstPart/Views/TypeView.m"
-            timestampString = "544957195.816335"
+            filePath = "nrProjectNew/FirstPart/Views/CollectionTableViewCell.m"
+            timestampString = "545034944.210079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
-            landmarkName = "-typeTBView"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

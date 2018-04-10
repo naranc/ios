@@ -29,6 +29,8 @@ static NSString * cellitifter = @"cellitifter";
 
 @property (strong, nonatomic) UITableView* typeTBView;
 
+@property (strong, nonatomic) UIView *footerView;
+
 @property (strong, nonatomic) UIImageView* fabuView;
 
 @property (strong, nonatomic) UIImageView* bottomLineView;
@@ -55,6 +57,7 @@ static NSString * cellitifter = @"cellitifter";
         [_bookeView addSubview:self.introLabel];
 
         [self addSubview:self.typeTBView];
+        _typeTBView.tableFooterView = self.footerView;
         [self addSubview:self.fabuView];
         [self addSubview:self.bottomLineView];
 
@@ -81,8 +84,14 @@ static NSString * cellitifter = @"cellitifter";
 {
     if (!_bookeView) {
         _bookeView = [[UIView alloc] init];
+        UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickLoveBook)];
+        [_bookeView addGestureRecognizer:tap];
     }
     return _bookeView;
+}
+- (void)clickLoveBook
+{
+    [_delegate clickBookStore];
 }
 - (UIImageView *)picImageView
 {
@@ -154,7 +163,15 @@ static NSString * cellitifter = @"cellitifter";
     }
     return _typeTBView;
 }
-
+- (UIView *)footerView
+{
+    if (!_footerView) {
+        _footerView = [[UIView alloc] init];
+        _footerView.backgroundColor = [UIColor clearColor];
+        _footerView.frame = CGRectMake(0, 0, SCREEN_WIDTH, 15);
+    }
+    return _footerView;
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 5;

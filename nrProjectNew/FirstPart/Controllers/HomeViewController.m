@@ -13,6 +13,12 @@
 #import "GYRollingNoticeView.h"
 #import "TypeView.h"
 #import "WRImageHelper.h"
+#import "BookstoreViewController.h"
+
+#import "RecommendListViewController.h"
+#import "AidViewController.h"
+#import "SubjectViewController.h"
+#import "PRankingViewController.h"
 
 #define FLASHVIEWHEIGHT SCREEN_WIDTH*200/375
 #define HEADVIEWHEIGHT 800
@@ -21,7 +27,7 @@
 
 static NSString * cellitifter00 = @"cellitifter00";
 
-@interface HomeViewController ()<UITableViewDelegate, UITableViewDataSource,SDCycleScrollViewDelegate,GYRollingNoticeViewDataSource, GYRollingNoticeViewDelegate>
+@interface HomeViewController ()<UITableViewDelegate, UITableViewDataSource,SDCycleScrollViewDelegate,GYRollingNoticeViewDataSource, GYRollingNoticeViewDelegate,CollectionTableViewCelllDelegate,TypeViewDelegate>
 {
     NSArray *_arr1;
     GYRollingNoticeView *_noticeView1;
@@ -90,7 +96,7 @@ static NSString * cellitifter00 = @"cellitifter00";
 
     
     cell = [[CollectionTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-    
+    cell.delegate = self;
     cell.frame = CGRectMake(0, _noticeBgView.bottom + 24, SCREEN_WIDTH, 58+17);
     
     [_headerView addSubview:cell];
@@ -106,7 +112,27 @@ static NSString * cellitifter00 = @"cellitifter00";
     [self.view addSubview:_searchBar];
 
 }
-
+- (void)clickType:(NSIndexPath *)indexPath
+{
+    if (indexPath.row == 0) {
+        RecommendListViewController * recommentVC = [[RecommendListViewController alloc] init];
+        recommentVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:recommentVC animated:YES];
+    }else if (indexPath.row == 1){
+        AidViewController * aidVC = [[AidViewController alloc] init];
+        aidVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:aidVC animated:YES];
+    }else if (indexPath.row == 2){
+        SubjectViewController * subjectVC = [[SubjectViewController alloc] init];
+        subjectVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:subjectVC animated:YES];
+    }else{
+        PRankingViewController * prankVC = [[PRankingViewController alloc] init];
+        prankVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:prankVC animated:YES];
+    }
+    
+}
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     CGFloat offsetY = scrollView.contentOffset.y;
@@ -204,7 +230,8 @@ static NSString * cellitifter00 = @"cellitifter00";
         [_searchBar setTitle:@"搜索你感兴趣的" forState:UIControlStateNormal];
         _searchBar.backgroundColor = kUIColorFromRGBWithAlpha(0xE7E7E7, 0.5);
         [_searchBar setImage:[UIImage imageNamed:@"index_sousuo"] forState:UIControlStateNormal];
-        
+        _searchBar.layer.cornerRadius = 4.0f;
+        _searchBar.clipsToBounds = YES;
     }
     return _searchBar;
     
@@ -252,8 +279,16 @@ static NSString * cellitifter00 = @"cellitifter00";
 {
     if (!_typeView) {
         _typeView = [[TypeView alloc] initWithFrame:CGRectMake(0, cell.bottom + 24, SCREEN_WIDTH, 317)];
+        _typeView.delegate = self;
     }
     return _typeView;
+}
+//爱心书屋
+- (void)clickBookStore
+{
+    BookstoreViewController * bookVC = [[BookstoreViewController alloc] init];
+    bookVC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:bookVC animated:YES];
 }
 - (SDCycleScrollView *)cycleScrollView
 {

@@ -280,6 +280,7 @@
 		99B7285C2073619700936EFA /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B728572073619600936EFA /* SDCollectionViewCell.m */; };
 		99B7285D2073619700936EFA /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B728582073619600936EFA /* UIView+SDExtension.m */; };
 		99B7285E2073619700936EFA /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B728592073619600936EFA /* SDCycleScrollView.m */; };
+		99CBD10D207C898F00B1A746 /* BookstoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CBD10C207C898F00B1A746 /* BookstoreViewController.m */; };
 		D6442961747179DE0AD684D3 /* libPods-nrProjectNewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0298A75C3F53BCF10893E6E9 /* libPods-nrProjectNewTests.a */; };
 /* End PBXBuildFile section */
 
@@ -836,6 +837,8 @@
 		99B728592073619600936EFA /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
 		99B7285A2073619600936EFA /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
 		99B7285B2073619700936EFA /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		99CBD10B207C898F00B1A746 /* BookstoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookstoreViewController.h; sourceTree = "<group>"; };
+		99CBD10C207C898F00B1A746 /* BookstoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookstoreViewController.m; sourceTree = "<group>"; };
 		AB98611DAF6F9624F6988028 /* Pods-nrProjectNewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nrProjectNewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nrProjectNewUITests/Pods-nrProjectNewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDAF591F3E7A39919F05A0B4 /* libPods-nrProjectNew.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nrProjectNew.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D316226E5CEF171D62E80409 /* Pods-nrProjectNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nrProjectNew.release.xcconfig"; path = "Pods/Target Support Files/Pods-nrProjectNew/Pods-nrProjectNew.release.xcconfig"; sourceTree = "<group>"; };
@@ -1193,6 +1196,8 @@
 				992D04201FDA5A9F00C6F90B /* FirstViewController.m */,
 				99B72852207203C000936EFA /* HomeViewController.h */,
 				99B72853207203C000936EFA /* HomeViewController.m */,
+				99CBD10B207C898F00B1A746 /* BookstoreViewController.h */,
+				99CBD10C207C898F00B1A746 /* BookstoreViewController.m */,
 				99613BEC1FE7AA40004A739C /* FoundViewController.h */,
 				99613BED1FE7AA40004A739C /* FoundViewController.m */,
 				99613D301FF24EF8004A739C /* WishListViewController.h */,
@@ -2552,6 +2557,7 @@
 				99613D0F1FF0A8DA004A739C /* TimeTableViewCell.m in Sources */,
 				99613CA31FECDC8B004A739C /* ZLCollectionCell.m in Sources */,
 				99261BD21FFCC5940099BA57 /* LHSIDCardScaningView.m in Sources */,
+				99CBD10D207C898F00B1A746 /* BookstoreViewController.m in Sources */,
 				99B7285E2073619700936EFA /* SDCycleScrollView.m in Sources */,
 				99613C701FECB3BA004A739C /* QuestionViewController.m in Sources */,
 				992D042F1FDA5D2D00C6F90B /* WRCustomNavigationBar.m in Sources */,
