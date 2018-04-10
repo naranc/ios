@@ -1,0 +1,54 @@
+//
+//  PrefixHeader.pch
+//  nrProjectNew
+//
+//  Created by 那然 on 2017/12/8.
+//  Copyright © 2017年 by Bo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+
+#import <Foundation/Foundation.h>
+
+#import "NRBaseViewController.h"
+
+#import "WRNavigationBar.h"
+
+#import "WRCustomNavigationBar.h"
+
+#import "UIViewAdditions.h"
+
+#import "UIImageView+WebCache.h"
+
+#import "ImageTextButton.h"
+
+#import "GlobalSingleton.h"
+
+#import "UIButton+Block.h"
+
+#import "LoginViewController.h"
+
+#import "LoginBaseViewController.h"
+
+#import "UserModel.h"
+
+#import "AFNetworkingUtil.h"
+
+#import "MJExtension.h"
+
+#import "KafkaRefresh.h"
+
+#import "NSString+Additions.h"//加密
+
+#endif
+
+#import "ConstDefine.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
