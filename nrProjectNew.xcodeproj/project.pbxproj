@@ -281,6 +281,18 @@
 		99B7285D2073619700936EFA /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B728582073619600936EFA /* UIView+SDExtension.m */; };
 		99B7285E2073619700936EFA /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B728592073619600936EFA /* SDCycleScrollView.m */; };
 		99CBD10D207C898F00B1A746 /* BookstoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CBD10C207C898F00B1A746 /* BookstoreViewController.m */; };
+		99CBD10F207DAE3B00B1A746 /* TREST1111.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CBD10E207DAE3A00B1A746 /* TREST1111.png */; };
+		99CBD111207DBF2B00B1A746 /* test000.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CBD110207DBF2B00B1A746 /* test000.png */; };
+		99CBD113207DC00F00B1A746 /* test2121.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CBD112207DC00F00B1A746 /* test2121.png */; };
+		99CBD115207DD55700B1A746 /* testimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CBD114207DD55700B1A746 /* testimage.jpg */; };
+		99CBD117207DD61C00B1A746 /* testImage000.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CBD116207DD61C00B1A746 /* testImage000.png */; };
+		99CBD119207DD6BD00B1A746 /* testimage222.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CBD118207DD6BD00B1A746 /* testimage222.png */; };
+		99CBD11B207DD87400B1A746 /* testimage888.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CBD11A207DD87300B1A746 /* testimage888.png */; };
+		99CBD11E207DDFB000B1A746 /* SearchBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CBD11D207DDFB000B1A746 /* SearchBookViewController.m */; };
+		99CBD121207DEEBD00B1A746 /* SearchTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CBD120207DEEBD00B1A746 /* SearchTagsViewController.m */; };
+		99CBD124207DF28C00B1A746 /* DBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CBD123207DF28C00B1A746 /* DBUtil.m */; };
+		99CBD127207DF31F00B1A746 /* SearchTagHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CBD126207DF31F00B1A746 /* SearchTagHistory.m */; };
+		99CBD12A207E011800B1A746 /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CBD129207E011800B1A746 /* SearchResultViewController.m */; };
 		D6442961747179DE0AD684D3 /* libPods-nrProjectNewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0298A75C3F53BCF10893E6E9 /* libPods-nrProjectNewTests.a */; };
 /* End PBXBuildFile section */
 
@@ -839,6 +851,23 @@
 		99B7285B2073619700936EFA /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
 		99CBD10B207C898F00B1A746 /* BookstoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookstoreViewController.h; sourceTree = "<group>"; };
 		99CBD10C207C898F00B1A746 /* BookstoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookstoreViewController.m; sourceTree = "<group>"; };
+		99CBD10E207DAE3A00B1A746 /* TREST1111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TREST1111.png; sourceTree = "<group>"; };
+		99CBD110207DBF2B00B1A746 /* test000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test000.png; sourceTree = "<group>"; };
+		99CBD112207DC00F00B1A746 /* test2121.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2121.png; sourceTree = "<group>"; };
+		99CBD114207DD55700B1A746 /* testimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimage.jpg; sourceTree = "<group>"; };
+		99CBD116207DD61C00B1A746 /* testImage000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage000.png; sourceTree = "<group>"; };
+		99CBD118207DD6BD00B1A746 /* testimage222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testimage222.png; sourceTree = "<group>"; };
+		99CBD11A207DD87300B1A746 /* testimage888.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testimage888.png; sourceTree = "<group>"; };
+		99CBD11C207DDFB000B1A746 /* SearchBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchBookViewController.h; sourceTree = "<group>"; };
+		99CBD11D207DDFB000B1A746 /* SearchBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchBookViewController.m; sourceTree = "<group>"; };
+		99CBD11F207DEEBD00B1A746 /* SearchTagsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchTagsViewController.h; sourceTree = "<group>"; };
+		99CBD120207DEEBD00B1A746 /* SearchTagsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTagsViewController.m; sourceTree = "<group>"; };
+		99CBD122207DF28C00B1A746 /* DBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBUtil.h; sourceTree = "<group>"; };
+		99CBD123207DF28C00B1A746 /* DBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBUtil.m; sourceTree = "<group>"; };
+		99CBD125207DF31F00B1A746 /* SearchTagHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTagHistory.h; sourceTree = "<group>"; };
+		99CBD126207DF31F00B1A746 /* SearchTagHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTagHistory.m; sourceTree = "<group>"; };
+		99CBD128207E011800B1A746 /* SearchResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchResultViewController.h; sourceTree = "<group>"; };
+		99CBD129207E011800B1A746 /* SearchResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewController.m; sourceTree = "<group>"; };
 		AB98611DAF6F9624F6988028 /* Pods-nrProjectNewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nrProjectNewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nrProjectNewUITests/Pods-nrProjectNewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDAF591F3E7A39919F05A0B4 /* libPods-nrProjectNew.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nrProjectNew.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D316226E5CEF171D62E80409 /* Pods-nrProjectNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nrProjectNew.release.xcconfig"; path = "Pods/Target Support Files/Pods-nrProjectNew/Pods-nrProjectNew.release.xcconfig"; sourceTree = "<group>"; };
@@ -1155,6 +1184,10 @@
 				99261C191FFE3D630099BA57 /* AFNetworkingUtil.m */,
 				99613D7D1FF3BC28004A739C /* UIButton+Block.h */,
 				99613D7E1FF3BC28004A739C /* UIButton+Block.m */,
+				99CBD122207DF28C00B1A746 /* DBUtil.h */,
+				99CBD123207DF28C00B1A746 /* DBUtil.m */,
+				99CBD125207DF31F00B1A746 /* SearchTagHistory.h */,
+				99CBD126207DF31F00B1A746 /* SearchTagHistory.m */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -1196,10 +1229,23 @@
 				992D04201FDA5A9F00C6F90B /* FirstViewController.m */,
 				99B72852207203C000936EFA /* HomeViewController.h */,
 				99B72853207203C000936EFA /* HomeViewController.m */,
+				99CBD11C207DDFB000B1A746 /* SearchBookViewController.h */,
+				99CBD11D207DDFB000B1A746 /* SearchBookViewController.m */,
+				99CBD11F207DEEBD00B1A746 /* SearchTagsViewController.h */,
+				99CBD120207DEEBD00B1A746 /* SearchTagsViewController.m */,
+				99CBD128207E011800B1A746 /* SearchResultViewController.h */,
+				99CBD129207E011800B1A746 /* SearchResultViewController.m */,
 				99CBD10B207C898F00B1A746 /* BookstoreViewController.h */,
 				99CBD10C207C898F00B1A746 /* BookstoreViewController.m */,
 				99613BEC1FE7AA40004A739C /* FoundViewController.h */,
 				99613BED1FE7AA40004A739C /* FoundViewController.m */,
+				99CBD10E207DAE3A00B1A746 /* TREST1111.png */,
+				99CBD110207DBF2B00B1A746 /* test000.png */,
+				99CBD112207DC00F00B1A746 /* test2121.png */,
+				99CBD114207DD55700B1A746 /* testimage.jpg */,
+				99CBD116207DD61C00B1A746 /* testImage000.png */,
+				99CBD118207DD6BD00B1A746 /* testimage222.png */,
+				99CBD11A207DD87300B1A746 /* testimage888.png */,
 				99613D301FF24EF8004A739C /* WishListViewController.h */,
 				99613D311FF24EF8004A739C /* WishListViewController.m */,
 				99261C442003695F0099BA57 /* WishDetailViewController.h */,
@@ -2223,20 +2269,26 @@
 			files = (
 				99613CC71FECDCC8004A739C /* btn_unselected.png in Resources */,
 				990ADDB01FD7B42D00944EAE /* LaunchScreen.storyboard in Resources */,
+				99CBD10F207DAE3B00B1A746 /* TREST1111.png in Resources */,
 				990ADDAD1FD7B42D00944EAE /* Assets.xcassets in Resources */,
 				99613CB81FECDCC8004A739C /* btn_selected@3x.png in Resources */,
+				99CBD117207DD61C00B1A746 /* testImage000.png in Resources */,
 				99613CD41FECDE80004A739C /* PYPhotosView.bundle in Resources */,
 				99613CC31FECDCC8004A739C /* btn_circle@2x.png in Resources */,
 				990ADDAB1FD7B42D00944EAE /* Main.storyboard in Resources */,
 				99613CBA1FECDCC8004A739C /* ZLPhotoBrowser.bundle in Resources */,
 				99613CC01FECDCC8004A739C /* btn_original_circle.png in Resources */,
+				99CBD11B207DD87400B1A746 /* testimage888.png in Resources */,
 				99261C221FFE47820099BA57 /* Images.xcassets in Resources */,
 				99613CCA1FECDCC8004A739C /* ZLPhotoBrowserCell.xib in Resources */,
 				99613CBE1FECDCC8004A739C /* btn_unselected@3x.png in Resources */,
 				99613CC81FECDCC8004A739C /* navBackBtn@2x.png in Resources */,
+				99CBD111207DBF2B00B1A746 /* test000.png in Resources */,
 				99613CBC1FECDCC8004A739C /* ZLNoAuthorityViewController.xib in Resources */,
 				99613CBD1FECDCC8004A739C /* btn_circle@3x.png in Resources */,
 				99613CBF1FECDCC8004A739C /* btn_original_circle@2x.png in Resources */,
+				99CBD113207DC00F00B1A746 /* test2121.png in Resources */,
+				99CBD115207DD55700B1A746 /* testimage.jpg in Resources */,
 				99613CC41FECDCC8004A739C /* btn_unselected@2x.png in Resources */,
 				99261BF61FFCC9F90099BA57 /* IDAuthViewController.xib in Resources */,
 				99613CC61FECDCC8004A739C /* ZLCollectionCell.xib in Resources */,
@@ -2244,6 +2296,7 @@
 				99613CC91FECDCC8004A739C /* lock.png in Resources */,
 				99613CBB1FECDCC8004A739C /* ZLPhotoActionSheet.xib in Resources */,
 				99613CC51FECDCC8004A739C /* defaultphoto.png in Resources */,
+				99CBD119207DD6BD00B1A746 /* testimage222.png in Resources */,
 				99613D461FF273C1004A739C /* xhdpibanner.png in Resources */,
 				99613CB91FECDCC8004A739C /* ZLThumbnailViewController.xib in Resources */,
 				99261BE31FFCC66D0099BA57 /* IDInfoViewController.xib in Resources */,
@@ -2466,6 +2519,7 @@
 				99613C9F1FECDC8B004A739C /* UITableView+Placeholder.m in Sources */,
 				99613CE01FECDEC8004A739C /* MBProgressHUD+PYExtension.m in Sources */,
 				99613C371FE8FBD3004A739C /* TAAbstractDotView.m in Sources */,
+				99CBD11E207DDFB000B1A746 /* SearchBookViewController.m in Sources */,
 				99613C391FE8FBD3004A739C /* TAAnimatedDotView.m in Sources */,
 				99613D121FF0E4D1004A739C /* CarryTableViewCell.m in Sources */,
 				99613D651FF37A4C004A739C /* BaseView.m in Sources */,
@@ -2493,7 +2547,9 @@
 				992C6FB6200E0AB80082068A /* SubCommentTableViewCell.m in Sources */,
 				99633A1F200CDD0B004AC7D8 /* ExpandView.m in Sources */,
 				99613C541FEB9259004A739C /* JGGView.m in Sources */,
+				99CBD127207DF31F00B1A746 /* SearchTagHistory.m in Sources */,
 				995902F52008863F0011E202 /* UIScrollView+KafkaConfiguration.m in Sources */,
+				99CBD12A207E011800B1A746 /* SearchResultViewController.m in Sources */,
 				99261C1D1FFE3E180099BA57 /* UIImage+compressIMG.m in Sources */,
 				992A111520187D5B00D90D22 /* ReportViewController.m in Sources */,
 				9920C24A2022FE46007425BF /* TitleLabelTableViewCell.m in Sources */,
@@ -2551,6 +2607,7 @@
 				99B7285C2073619700936EFA /* SDCollectionViewCell.m in Sources */,
 				99613C4B1FEA3DD9004A739C /* ImageTextButton.m in Sources */,
 				9920C2472022B853007425BF /* ScreenView.m in Sources */,
+				99CBD124207DF28C00B1A746 /* DBUtil.m in Sources */,
 				99261C312000BB480099BA57 /* SelectTagsViewController.m in Sources */,
 				995902F1200886320011E202 /* UIScrollView+KafkaLayout.m in Sources */,
 				992A111B201F086600D90D22 /* RecommendDetailViewController.m in Sources */,
@@ -2608,6 +2665,7 @@
 				99261BF71FFCC9F90099BA57 /* IDAuthViewController.m in Sources */,
 				99613D791FF39EBB004A739C /* MessageViewController.m in Sources */,
 				99613BF71FE7BD8B004A739C /* CycleTableViewCell.m in Sources */,
+				99CBD121207DEEBD00B1A746 /* SearchTagsViewController.m in Sources */,
 				99613D551FF3709B004A739C /* AddAdressTableViewCell.m in Sources */,
 				99199C8F2006096800E6D7F0 /* PGDatePicker.m in Sources */,
 				99613C471FEA186B004A739C /* YLProgressBar.m in Sources */,

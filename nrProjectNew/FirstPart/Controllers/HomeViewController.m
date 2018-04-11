@@ -14,12 +14,12 @@
 #import "TypeView.h"
 #import "WRImageHelper.h"
 #import "BookstoreViewController.h"
-
+#import "SearchBookViewController.h"
 #import "RecommendListViewController.h"
 #import "AidViewController.h"
 #import "SubjectViewController.h"
 #import "PRankingViewController.h"
-
+#import "SearchTagsViewController.h"
 #define FLASHVIEWHEIGHT SCREEN_WIDTH*200/375
 #define HEADVIEWHEIGHT 800
 
@@ -36,6 +36,8 @@ static NSString * cellitifter00 = @"cellitifter00";
 @property (nonatomic, strong)UITableView * foundTableView;
 
 @property (nonatomic, strong)UIView * searchView;
+
+@property (nonatomic, strong)UIView * searchBGView;
 
 @property (nonatomic, strong)UIView * headerView;
 
@@ -108,8 +110,15 @@ static NSString * cellitifter00 = @"cellitifter00";
     [self.view addSubview:self.searchView];
     
     
-    self.searchBar.frame = CGRectMake(30, 40, SCREEN_WIDTH - 60, 34);
-    [self.view addSubview:_searchBar];
+    
+    if ([WRNavigationBar isIphoneX]) {
+        self.searchBar.frame = CGRectMake(13, 0, SCREEN_WIDTH - 60 - 13, 34);
+    }else{
+        self.searchBar.frame = CGRectMake(13, 0, SCREEN_WIDTH - 60 - 13, 34);
+    }
+    
+    [self.view addSubview:self.searchBGView];
+    [_searchBGView addSubview:_searchBar];
 
 }
 - (void)clickType:(NSIndexPath *)indexPath
@@ -142,8 +151,10 @@ static NSString * cellitifter00 = @"cellitifter00";
     }
 
     if (offsetY<0) {
+        _searchBGView.alpha = 0;
         _searchBar.alpha = 0;
     }else{
+        _searchBGView.alpha = 1;
         _searchBar.alpha = 1;
     }
     
@@ -208,7 +219,7 @@ static NSString * cellitifter00 = @"cellitifter00";
 {
     if (!_searchView) {
         _searchView = [[UIView alloc] init];
-        _searchView.backgroundColor = MainColor;
+        _searchView.backgroundColor = kUIColorFromRGB(0x65BCFF);
         _searchView.alpha = 0;
         if ([WRNavigationBar isIphoneX]) {
             _searchView.frame = CGRectMake(0, 0, SCREEN_WIDTH, 88);
@@ -217,6 +228,22 @@ static NSString * cellitifter00 = @"cellitifter00";
         }
     }
     return _searchView;
+}
+
+- (UIView *)searchBGView
+{
+    if (!_searchBGView) {
+        _searchBGView = [[UIView alloc] init];
+        if ([WRNavigationBar isIphoneX]) {
+            _searchBGView.frame = CGRectMake(30, 40, SCREEN_WIDTH - 60, 34);
+        }else{
+            _searchBGView.frame = CGRectMake(30, 22, SCREEN_WIDTH - 60, 34);
+        }
+        _searchBGView.backgroundColor = kUIColorFromRGB(0xE7E7E7);
+        _searchBGView.layer.cornerRadius = 4.0f;
+        _searchBGView.clipsToBounds = YES;
+    }
+    return _searchBGView;
 }
 - (ImageTextButton *)searchBar
 {
@@ -228,10 +255,16 @@ static NSString * cellitifter00 = @"cellitifter00";
         [_searchBar setTitleColor:kUIColorFromRGB(0x65BCFF) forState:UIControlStateNormal];
         _searchBar.layoutStyle = ImageTextButtonNSTextAlignmentLeft;
         [_searchBar setTitle:@"搜索你感兴趣的" forState:UIControlStateNormal];
-        _searchBar.backgroundColor = kUIColorFromRGBWithAlpha(0xE7E7E7, 0.5);
+        _searchBar.backgroundColor = kUIColorFromRGB(0xE7E7E7);
         [_searchBar setImage:[UIImage imageNamed:@"index_sousuo"] forState:UIControlStateNormal];
-        _searchBar.layer.cornerRadius = 4.0f;
-        _searchBar.clipsToBounds = YES;
+        weakify(self);
+        [_searchBar addAction:^(UIButton *btn) {
+//            SearchTagsViewController * searchVC = [[SearchTagsViewController alloc] init];
+//            [weakSelf presentViewController:searchVC animated:YES completion:nil];
+            SearchTagsViewController * searchVC = [[SearchTagsViewController alloc] init];
+            UINavigationController *ANavigationController = [[UINavigationController alloc] initWithRootViewController:searchVC];
+            [weakSelf.navigationController presentViewController:ANavigationController animated:YES completion:nil];
+        } forControlEvents:UIControlEventTouchUpInside];
     }
     return _searchBar;
     
