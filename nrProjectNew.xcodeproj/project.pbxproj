@@ -130,6 +130,9 @@
 		99590337200893B90011E202 /* CarriagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99590336200893B90011E202 /* CarriagingViewController.m */; };
 		9959033A200893EE0011E202 /* TFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99590339200893EE0011E202 /* TFeedbackViewController.m */; };
 		9959033D200C780B0011E202 /* DonateDetaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9959033C200C780B0011E202 /* DonateDetaiViewController.m */; };
+		995DCDEA207F7194006BD515 /* CommTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 995DCDE9207F7194006BD515 /* CommTableViewCell.m */; };
+		995DCDED207F738E006BD515 /* SubCommTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 995DCDEC207F738E006BD515 /* SubCommTableViewCell.m */; };
+		995DCDEF207F93EE006BD515 /* userimagePic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 995DCDEE207F93EE006BD515 /* userimagePic.jpg */; };
 		99613BD71FE3A82D004A739C /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 99613BD61FE3A82D004A739C /* MyTabBar.m */; };
 		99613BDA1FE3A84E004A739C /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99613BD91FE3A84E004A739C /* MyTabBarViewController.m */; };
 		99613BEE1FE7AA40004A739C /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99613BED1FE7AA40004A739C /* FoundViewController.m */; };
@@ -574,6 +577,11 @@
 		99590339200893EE0011E202 /* TFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFeedbackViewController.m; sourceTree = "<group>"; };
 		9959033B200C780B0011E202 /* DonateDetaiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DonateDetaiViewController.h; sourceTree = "<group>"; };
 		9959033C200C780B0011E202 /* DonateDetaiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DonateDetaiViewController.m; sourceTree = "<group>"; };
+		995DCDE8207F7194006BD515 /* CommTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommTableViewCell.h; sourceTree = "<group>"; };
+		995DCDE9207F7194006BD515 /* CommTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommTableViewCell.m; sourceTree = "<group>"; };
+		995DCDEB207F738E006BD515 /* SubCommTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubCommTableViewCell.h; sourceTree = "<group>"; };
+		995DCDEC207F738E006BD515 /* SubCommTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubCommTableViewCell.m; sourceTree = "<group>"; };
+		995DCDEE207F93EE006BD515 /* userimagePic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userimagePic.jpg; sourceTree = "<group>"; };
 		99613BD51FE3A82D004A739C /* MyTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
 		99613BD61FE3A82D004A739C /* MyTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
 		99613BD81FE3A84E004A739C /* MyTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
@@ -1313,6 +1321,7 @@
 				99613BF31FE7AA95004A739C /* RankingListViewController.m */,
 				99613D1D1FF21F4E004A739C /* Others */,
 				99613D451FF273C1004A739C /* xhdpibanner.png */,
+				995DCDEE207F93EE006BD515 /* userimagePic.jpg */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -2203,6 +2212,10 @@
 		99CBD158207F482D00B1A746 /* BookDeteilController */ = {
 			isa = PBXGroup;
 			children = (
+				995DCDEB207F738E006BD515 /* SubCommTableViewCell.h */,
+				995DCDEC207F738E006BD515 /* SubCommTableViewCell.m */,
+				995DCDE8207F7194006BD515 /* CommTableViewCell.h */,
+				995DCDE9207F7194006BD515 /* CommTableViewCell.m */,
 				99CBD159207F485900B1A746 /* BookDetailViewController.h */,
 				99CBD15A207F485900B1A746 /* BookDetailViewController.m */,
 			);
@@ -2334,6 +2347,7 @@
 				990ADDAD1FD7B42D00944EAE /* Assets.xcassets in Resources */,
 				99613CB81FECDCC8004A739C /* btn_selected@3x.png in Resources */,
 				99613CD41FECDE80004A739C /* PYPhotosView.bundle in Resources */,
+				995DCDEF207F93EE006BD515 /* userimagePic.jpg in Resources */,
 				99613CC31FECDCC8004A739C /* btn_circle@2x.png in Resources */,
 				990ADDAB1FD7B42D00944EAE /* Main.storyboard in Resources */,
 				99613CBA1FECDCC8004A739C /* ZLPhotoBrowser.bundle in Resources */,
@@ -2524,6 +2538,7 @@
 				99261C171FFE3C490099BA57 /* Utils.m in Sources */,
 				992D04241FDA5AAC00C6F90B /* SecondViewController.m in Sources */,
 				99613BF11FE7AA73004A739C /* ActivityViewController.m in Sources */,
+				995DCDEA207F7194006BD515 /* CommTableViewCell.m in Sources */,
 				99B72854207203C000936EFA /* HomeViewController.m in Sources */,
 				99613C1F1FE8D9E3004A739C /* UIViewAdditions.m in Sources */,
 				9920C24D20230313007425BF /* TagTableViewCell.m in Sources */,
@@ -2687,6 +2702,7 @@
 				995902EF200886320011E202 /* NSObject+KafkaAnimation.m in Sources */,
 				99613C9A1FECDC8B004A739C /* ZLSelectPhotoModel.m in Sources */,
 				99613C5E1FEB92AB004A739C /* SDWaitingView.m in Sources */,
+				995DCDED207F738E006BD515 /* SubCommTableViewCell.m in Sources */,
 				99261BCF1FFCC56B0099BA57 /* AVCaptureViewController.m in Sources */,
 				992C6FB0200DFE460082068A /* CommentModel.m in Sources */,
 				99613D351FF24F0D004A739C /* DonateListViewController.m in Sources */,

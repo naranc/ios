@@ -20,6 +20,7 @@
 #import "SubjectViewController.h"
 #import "PRankingViewController.h"
 #import "SearchTagsViewController.h"
+#import "BookDetailViewController.h"
 #define FLASHVIEWHEIGHT SCREEN_WIDTH*200/375
 #define HEADVIEWHEIGHT 800
 
@@ -374,7 +375,13 @@ static NSString * cellitifter00 = @"cellitifter00";
 {
     return 144 + 16;
 }
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    BookDetailViewController * bookDetailVC = [[BookDetailViewController alloc] init];
+    bookDetailVC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:bookDetailVC animated:YES];
+}
 #pragma mark - SDCycleScrollViewDelegate
 - (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index
 {
