@@ -66,8 +66,8 @@
     }
     return _searchButton;
 }
-CGFloat top;- (void)viewWillLayoutSubviews {
-
+- (void)viewWillLayoutSubviews {
+    CGFloat top;
     if ([WRNavigationBar isIphoneX]) {
         top = 40;
     }else{

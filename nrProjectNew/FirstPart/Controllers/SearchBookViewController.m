@@ -103,6 +103,8 @@
             [self.navigationController pushViewController:searchVC animated:YES];
         }else{
             //搜索结果页面去刷新
+            [(SearchResultViewController *)self.navigationController.childViewControllers[1] refeshSearchTags];
+
         }
         return YES;
     }
@@ -124,13 +126,18 @@
             [weakSelf.searchTF resignFirstResponder];
             if ([weakSelf isKindOfClass:[SearchResultViewController class]]) {
                 [weakSelf.navigationController popViewControllerAnimated:YES];
-                [[SearchTagsViewController new] refeshData];
+//                SearchTagsViewController * searchVC = [SearchTagsViewController new];
+                [weakSelf refeshSearchTags];
             }else{
                  [weakSelf dismissViewControllerAnimated:YES completion:nil];
             }
         } forControlEvents:UIControlEventTouchUpInside];
     }
     return _cancelButton;
+}
+- (void)refeshSearchTags
+{
+    [(SearchTagsViewController *)self.navigationController.childViewControllers[0] refeshSearchTags];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

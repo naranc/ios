@@ -80,9 +80,23 @@
     self.customNavBar.titleLabelColor = kUIColorFromRGB(0x333333);
     self.customNavBar.titleLabelFont = [UIFont fontWithName:@"PingFangSC-Medium" size:17];
     
+    
+    CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+    gradientLayer.frame = self.customNavBar.frame;  // 设置显示的frame
+    gradientLayer.colors = @[(id)kUIColorFromRGB(0x359FFF).CGColor,(id)kUIColorFromRGB(0x65CDFF).CGColor];  // 设置渐变颜色
+    //    gradientLayer.locations = @[@0.0, @0.2, @0.5];    // 颜色的起点位置，递增，并且数量跟颜色数量相等
+    gradientLayer.startPoint = CGPointMake(0, 0);   //
+    gradientLayer.endPoint = CGPointMake(1, 0);     //
+    [self.customNavBar.layer addSublayer:gradientLayer];
+    
+//    [self.customNavBar wr_setLeftButtonWithImage:[UIImage imageNamed:@"nav_back"]];
+    [self.customNavBar setTitleLabelFont:[UIFont fontWithName:@"PingFangSC-Medium" size:17]];
+    [self.customNavBar setTitleLabelColor:kUIColorFromRGB(0xFFFFFF)];
+    [self.customNavBar wr_setSubViewToFront];
+    
     if (self.navigationController.childViewControllers.count != 1) {
      
-        [self.customNavBar wr_setLeftButtonWithImage:[UIImage imageNamed:@"back_image"]];
+        [self.customNavBar wr_setLeftButtonWithImage:[UIImage imageNamed:@"nav_back"]];
         weakify(self);
         self.customNavBar.onClickLeftButton = ^{
             [weakSelf.navigationController popViewControllerAnimated:YES];

@@ -10,4 +10,5 @@
 
 @interface SearchBookViewController : NRBaseViewController
 
+- (void)refeshSearchTags;
 @end

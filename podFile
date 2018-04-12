@@ -3,6 +3,7 @@
 target 'nrProjectNew' do
 pod ‘AFNetworking’
 pod 'JPush'
+pod 'YYText'
 pod 'FMDB'
 pod 'Masonry'
 pod 'MXSegmentedPager'

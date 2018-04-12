@@ -9,6 +9,7 @@
 #import "SearchTagsViewController.h"
 #import "SearchResultViewController.h"
 #import "SearchTagHistory.h"
+#import "HotBorrowTableViewCell.h"
 @interface SearchTagsViewController ()<UITableViewDelegate, UITableViewDataSource,UIAlertViewDelegate>
 {
     UIView * hView;
@@ -98,12 +99,11 @@
         }
         return cell;
     }else{
-        UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cellitifter"];
+        HotBorrowTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cellitifter11"];
         if (!cell) {
-            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cellitifter"];
+            cell = [[HotBorrowTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cellitifter11"];
         }
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
-        cell.backgroundColor = [UIColor redColor];
         return cell;
     }
     
@@ -123,7 +123,7 @@
         }
         
     }else{
-        return 144 + 16;
+        return 218;
     }
 }
 - (UILabel *)searchLabel
@@ -190,7 +190,7 @@
     CGFloat h = 7;
     
     UIView * bgView = [[UIView alloc] initWithFrame:CGRectMake(7, top, bgViewWight, 200)];
-    bgView.backgroundColor = [UIColor redColor];
+    bgView.backgroundColor = [UIColor whiteColor];
     //    [self.view addSubview:bgView];
     
     CGFloat y = 0.0;
@@ -235,6 +235,10 @@
     return bgView;
 }
 - (void)refeshData
+{
+    [_searchTagsTableView reloadData];
+}
+- (void)refeshSearchTags
 {
     [_searchTagsTableView reloadData];
 }

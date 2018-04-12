@@ -45,6 +45,11 @@
 
 #import "NSString+Additions.h"//加密
 
+#improt "YYText.h"
+#import "YYCategories.h"
+#import "YYModel.h"
+#import "YYWebImage.h"
+#import "YYTextLayout.h"
 #endif
 
 #import "ConstDefine.h"

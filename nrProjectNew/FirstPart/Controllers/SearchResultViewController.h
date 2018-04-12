@@ -11,4 +11,6 @@
 
 @interface SearchResultViewController : SearchBookViewController
 
+- (void)refeshSearchTags;
+
 @end

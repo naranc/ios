@@ -362,12 +362,12 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/OperationPart/Controllers/HelpHerViewController.m"
-                  timestampString = "545034888.801427"
+                  timestampString = "545208717.88613"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "389"
                   endingLineNumber = "389"
-                  offsetFromSymbolStart = "1568">
+                  offsetFromSymbolStart = "1692">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -377,12 +377,12 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/OperationPart/Controllers/HelpHerViewController.m"
-                  timestampString = "545034888.802865"
+                  timestampString = "545208717.887766"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "389"
                   endingLineNumber = "389"
-                  offsetFromSymbolStart = "28">
+                  offsetFromSymbolStart = "19">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -490,12 +490,12 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/FirstPart/Controllers/DetailWishViewController.m"
-                  timestampString = "545034888.817587"
+                  timestampString = "545208717.908386"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "191"
                   endingLineNumber = "191"
-                  offsetFromSymbolStart = "372">
+                  offsetFromSymbolStart = "450">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -505,12 +505,12 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/FirstPart/Controllers/DetailWishViewController.m"
-                  timestampString = "545034888.818868"
+                  timestampString = "545208717.909968"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "192"
                   endingLineNumber = "192"
-                  offsetFromSymbolStart = "64">
+                  offsetFromSymbolStart = "54">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -618,12 +618,12 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/OperationPart/Controllers/InputWayNumberViewController.m"
-                  timestampString = "545034888.8346601"
+                  timestampString = "545208717.931296"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "113"
                   endingLineNumber = "113"
-                  offsetFromSymbolStart = "1500">
+                  offsetFromSymbolStart = "1608">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -633,12 +633,12 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/OperationPart/Controllers/InputWayNumberViewController.m"
-                  timestampString = "545034888.835873"
+                  timestampString = "545208717.932832"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "113"
                   endingLineNumber = "113"
-                  offsetFromSymbolStart = "24">
+                  offsetFromSymbolStart = "19">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -826,12 +826,12 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/FirstPart/Controllers/AidDetailViewController.m"
-                  timestampString = "545034888.863238"
+                  timestampString = "545208717.96921"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "63"
                   endingLineNumber = "63"
-                  offsetFromSymbolStart = "100">
+                  offsetFromSymbolStart = "51">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -841,12 +841,12 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/FirstPart/Controllers/AidDetailViewController.m"
-                  timestampString = "545034888.864532"
+                  timestampString = "545208717.970726"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "63"
                   endingLineNumber = "63"
-                  offsetFromSymbolStart = "24">
+                  offsetFromSymbolStart = "19">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -921,13 +921,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "nrProjectNew/FirstPart/Views/TypeView.m"
-            timestampString = "545129797.598874"
+            filePath = "nrProjectNew/FirstPart/Controllers/SearchBookViewController.m"
+            timestampString = "545211072.899461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
-            landmarkName = "-typeTBView"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "-textFieldShouldReturn:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -937,12 +937,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "nrProjectNew/FirstPart/Views/CollectionTableViewCell.m"
-            timestampString = "545118677.090327"
+            filePath = "nrProjectNew/FirstPart/Views/RecommendBookCell.m"
+            timestampString = "545211072.8995349"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
             landmarkName = "-collectionView:didSelectItemAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
