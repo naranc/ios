@@ -20,8 +20,6 @@ static NSString * cellitifter = @"cellitifter";
 
 @property (nonatomic, strong)UITableView * bookTableView;
 
-
-
 @end
 
 @implementation BookstoreViewController

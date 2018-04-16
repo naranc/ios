@@ -362,7 +362,7 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/OperationPart/Controllers/HelpHerViewController.m"
-                  timestampString = "545229904.148499"
+                  timestampString = "545293906.4879839"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "389"
@@ -377,7 +377,7 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/OperationPart/Controllers/HelpHerViewController.m"
-                  timestampString = "545229904.150149"
+                  timestampString = "545293906.489377"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "389"
@@ -410,7 +410,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nrProjectNew/FirstPart/Controllers/WishDetailViewController.m"
-            timestampString = "545044312.207252"
+            timestampString = "545295693.518519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "113"
@@ -490,7 +490,7 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/FirstPart/Controllers/DetailWishViewController.m"
-                  timestampString = "545229904.1688091"
+                  timestampString = "545293906.5054491"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "191"
@@ -505,7 +505,7 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/FirstPart/Controllers/DetailWishViewController.m"
-                  timestampString = "545229904.170239"
+                  timestampString = "545293906.506863"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "192"
@@ -554,7 +554,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nrProjectNew/FirstPart/Controllers/WishDetailViewController.m"
-            timestampString = "545044312.207374"
+            timestampString = "545295693.518669"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
@@ -618,7 +618,7 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/OperationPart/Controllers/InputWayNumberViewController.m"
-                  timestampString = "545229904.187965"
+                  timestampString = "545293906.522929"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "113"
@@ -633,7 +633,7 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/OperationPart/Controllers/InputWayNumberViewController.m"
-                  timestampString = "545229904.18963"
+                  timestampString = "545293906.5242569"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "113"
@@ -746,7 +746,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nrProjectNew/FirstPart/Controllers/WishDetailViewController.m"
-            timestampString = "545044312.2075109"
+            timestampString = "545295693.518847"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "390"
@@ -762,7 +762,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nrProjectNew/FirstPart/Controllers/WishDetailViewController.m"
-            timestampString = "545044312.207551"
+            timestampString = "545295693.518886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "370"
@@ -778,7 +778,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nrProjectNew/FirstPart/Controllers/WishDetailViewController.m"
-            timestampString = "545044312.207588"
+            timestampString = "545295693.518922"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "388"
@@ -826,7 +826,7 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/FirstPart/Controllers/AidDetailViewController.m"
-                  timestampString = "545229904.2241"
+                  timestampString = "545293907.731742"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "63"
@@ -841,7 +841,7 @@
                   moduleName = "nrProjectNew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///naranNewProject/ios/nrProjectNew/FirstPart/Controllers/AidDetailViewController.m"
-                  timestampString = "545229904.2256089"
+                  timestampString = "545293907.733048"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "63"
@@ -954,12 +954,92 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nrProjectNew/FirstPart/Controllers/BookDeteilController/CommTableViewCell.m"
-            timestampString = "545235168.763502"
+            timestampString = "545558514.124332"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "201"
             endingLineNumber = "201"
             landmarkName = "-tableView:numberOfRowsInSection:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nrProjectNew/FirstPart/Controllers/BookDeteilController/Views/BookDetailHeadView.m"
+            timestampString = "545558514.124429"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-initWithFrame:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nrProjectNew/FirstPart/Controllers/BookDeteilController/Views/BookDetailHeadView.m"
+            timestampString = "545558514.124483"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-initWithFrame:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nrProjectNew/FirstPart/Controllers/BookDeteilController/Views/BookDetailHeadView.m"
+            timestampString = "545558514.124527"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-initWithFrame:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nrProjectNew/FirstPart/Controllers/BookDeteilController/Views/BookDetailHeadView.m"
+            timestampString = "545558514.124571"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-initWithFrame:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nrProjectNew/FirstPart/Controllers/BookDeteilController/Views/BookDetailHeadView.m"
+            timestampString = "545558514.124612"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-initWithFrame:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

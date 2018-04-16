@@ -47,7 +47,7 @@
 {
     if (!_bgView) {
         _bgView = [[UIView alloc] init];
-        _bgView.frame = CGRectMake(0, 12, SCREEN_WIDTH, 88);
+        _bgView.frame = CGRectMake(0, 0, SCREEN_WIDTH, 97);
         _bgView.backgroundColor = kUIColorFromRGB(0xFFFFFF);
         _bgView.userInteractionEnabled = YES;
     }
@@ -60,8 +60,8 @@
         _titleLabel = [[UILabel alloc] init];
         _titleLabel.frame = CGRectMake(15, 16, 300, 21);
         _titleLabel.text = @"新旧程度";
-        _titleLabel.font = [UIFont fontWithName:@"PingFangSC-Light" size:15];
-        _titleLabel.textColor = kUIColorFromRGB(0x666666);
+        _titleLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:15];
+        _titleLabel.textColor = kUIColorFromRGB(0x333333);
     }
     return _titleLabel;
 }
@@ -70,14 +70,14 @@
 {
     if (!_yesButton) {
         _yesButton = [UIButton buttonWithType:UIButtonTypeSystem];
-        _yesButton.frame = CGRectMake(15, _titleLabel.bottom + 11, 54, 24);
+        _yesButton.frame = CGRectMake(15, _titleLabel.bottom + 16, 44, 28);
         [_yesButton setTitle:@"全新" forState:UIControlStateNormal];
         _yesButton.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Light" size:15];
         _yesButton.titleLabel.textAlignment = NSTextAlignmentCenter;
         _yesButton.backgroundColor = MainColor;
         [_yesButton setTitleColor:kUIColorFromRGB(0xFFFFFF) forState:UIControlStateNormal];
         _yesButton.layer.borderWidth = 0.5f;
-        _yesButton.layer.cornerRadius = 24/2;
+        _yesButton.layer.cornerRadius = 28/2;
         _yesButton.layer.borderColor = MainColor.CGColor;
         _yesButton.clipsToBounds = YES;
         _yesButton.tag = 1001;
@@ -90,13 +90,13 @@
 {
     if (!_nineButton) {
         _nineButton = [UIButton buttonWithType:UIButtonTypeSystem];
-        _nineButton.frame = CGRectMake(_yesButton.right + 19, _titleLabel.bottom + 11, 68, 24);
+        _nineButton.frame = CGRectMake(_yesButton.right + 24, _titleLabel.bottom + 16, 57, 28);
         [_nineButton setTitle:@"九成新" forState:UIControlStateNormal];
         _nineButton.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Light" size:15];
         _nineButton.titleLabel.textAlignment = NSTextAlignmentCenter;
         [_nineButton setTitleColor:kUIColorFromRGB(0x666666) forState:UIControlStateNormal];
         _nineButton.layer.borderWidth = 0.5f;
-        _nineButton.layer.cornerRadius = 24/2;
+        _nineButton.layer.cornerRadius = 28/2;
         _nineButton.layer.borderColor = kUIColorFromRGB(0x666666).CGColor;
         _nineButton.clipsToBounds = YES;
         _nineButton.tag = 1002;
@@ -109,13 +109,13 @@
 {
     if (!_sevenButton) {
         _sevenButton = [UIButton buttonWithType:UIButtonTypeSystem];
-        _sevenButton.frame = CGRectMake(_nineButton.right + 19, _titleLabel.bottom + 11, 68, 24);
+        _sevenButton.frame = CGRectMake(_nineButton.right + 24, _titleLabel.bottom + 16, 57, 28);
         [_sevenButton setTitle:@"七成新" forState:UIControlStateNormal];
         _sevenButton.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Light" size:15];
         _sevenButton.titleLabel.textAlignment = NSTextAlignmentCenter;
         [_sevenButton setTitleColor:kUIColorFromRGB(0x666666) forState:UIControlStateNormal];
         _sevenButton.layer.borderWidth = 0.5f;
-        _sevenButton.layer.cornerRadius = 24/2;
+        _sevenButton.layer.cornerRadius = 28/2;
         _sevenButton.layer.borderColor = kUIColorFromRGB(0x666666).CGColor;
         _sevenButton.clipsToBounds = YES;
         _sevenButton.tag = 1003;
@@ -128,13 +128,13 @@
 {
     if (!_sixButton) {
         _sixButton = [UIButton buttonWithType:UIButtonTypeSystem];
-        _sixButton.frame = CGRectMake(_sevenButton.right + 19, _titleLabel.bottom + 11, 98, 24);
+        _sixButton.frame = CGRectMake(_sevenButton.right + 24, _titleLabel.bottom + 16, 85, 28);
         [_sixButton setTitle:@"六成新以下" forState:UIControlStateNormal];
         _sixButton.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Light" size:15];
         _sixButton.titleLabel.textAlignment = NSTextAlignmentCenter;
         [_sixButton setTitleColor:kUIColorFromRGB(0x666666) forState:UIControlStateNormal];
         _sixButton.layer.borderWidth = 0.5f;
-        _sixButton.layer.cornerRadius = 24/2;
+        _sixButton.layer.cornerRadius = 28/2;
         _sixButton.layer.borderColor = kUIColorFromRGB(0x666666).CGColor;
         _sixButton.clipsToBounds = YES;
         _sixButton.tag = 1004;

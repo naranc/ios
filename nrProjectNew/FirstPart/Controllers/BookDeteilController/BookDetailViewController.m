@@ -9,13 +9,34 @@
 #import "BookDetailViewController.h"
 #import "CommentModel.h"
 #import "CommTableViewCell.h"
+#import "BookDetailHeadView.h"
+#import "CommentBottomView.h"
+#import "WantBookView.h"
+#import "CommentTitleView.h"
 
 @interface BookDetailViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong)UITableView * bookDetailTableView;
+
 @property (nonatomic, assign) UIEdgeInsets insets;
 
 @property (nonatomic, strong) NSMutableArray * commentArray;
+
+@property (nonatomic, strong) UIButton * wantButton;
+
+@property (strong, nonatomic) CommentBottomView * commentView;
+
+@property (nonatomic, strong) UIView * headView;
+
+
+@property (nonatomic, strong) BookDetailHeadView * bookDetailHeadView;
+
+@property (nonatomic, strong) WantBookView * wantBookView;
+
+@property (nonatomic, strong) NSMutableArray * wantBookArray;
+
+
+@property (nonatomic, strong) CommentTitleView * commentTitleView;
 
 @end
 
@@ -26,6 +47,13 @@
         _commentArray = [NSMutableArray arrayWithCapacity:1];
     }
     return _commentArray;
+}
+- (NSMutableArray *)wantBookArray
+{
+    if (!_wantBookArray) {
+        _wantBookArray = [NSMutableArray arrayWithCapacity:1];
+    }
+    return _wantBookArray;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -97,7 +125,100 @@
     [self.commentArray addObject:commModel6];
 
     [self.view addSubview:self.bookDetailTableView];
+    [self.view addSubview:self.wantButton];
     
+  
+    
+    CGFloat cellHeight = 12 + 20 + 12 + 20 + 12;
+    NSString * intro = @"《红楼梦》，中国古典四大名著之首，清代作家曹雪芹创作的章回体长篇小说 ，又名《石头记》《金玉缘》。此书分为120回“程本”和80回“脂本”两种版本系统，程...";
+    CGFloat firstCellHeight = cellHeight - 20 + [[GlobalSingleton Singleton] getHeigthWithText:intro width:SCREEN_WIDTH - 30 font:[UIFont fontWithName:@"PingFangSC-Regular" size:14]].size.height;
+    CGFloat headViewHeight = 20 + 215 + 12 + firstCellHeight + cellHeight*3;
+//    self.headView.frame = CGRectMake(0, 0, SCREEN_WIDTH, headViewHeight);
+    _bookDetailTableView.tableHeaderView = self.headView;
+    [_headView addSubview:self.bookDetailHeadView];
+    [_headView addSubview:self.commentView];
+ 
+    
+    [self.wantBookArray addObject:@"userimagePic.jpg"];
+    [self.wantBookArray addObject:@"userimagePic.jpg"];
+    [self.wantBookArray addObject:@"userimagePic.jpg"];
+    [self.wantBookArray addObject:@"userimagePic.jpg"];
+    [self.wantBookArray addObject:@"userimagePic.jpg"];
+    [_headView addSubview:self.wantBookView];
+    [_headView addSubview:self.commentTitleView];
+
+}
+- (CommentTitleView *)commentTitleView
+{
+    if (!_commentTitleView) {
+        _commentTitleView = [[CommentTitleView alloc] initWithFrame:CGRectMake(0, _wantBookView.bottom + 8, SCREEN_WIDTH, 49)];
+    }
+    return _commentTitleView;
+}
+- (WantBookView *)wantBookView
+{
+    if (!_wantBookView) {
+        _wantBookView = [[WantBookView alloc] initWithFrame:CGRectMake(0, _commentView.bottom + 8, SCREEN_WIDTH, 128)];
+        [_wantBookView creatWantPersonUserImageViewWithArray:_wantBookArray];
+    }
+    return _wantBookView;
+}
+- (UIView *)headView
+{
+    if (!_headView) {
+        CGFloat cellHeight = 12 + 20 + 12 + 20 + 12;
+        NSString * intro = @"《红楼梦》，中国古典四大名著之首，清代作家曹雪芹创作的章回体长篇小说 ，又名《石头记》《金玉缘》。此书分为120回“程本”和80回“脂本”两种版本系统，程...";
+        CGFloat firstCellHeight = cellHeight - 20 + [[GlobalSingleton Singleton] getHeigthWithText:intro width:SCREEN_WIDTH - 30 font:[UIFont fontWithName:@"PingFangSC-Regular" size:14]].size.height;
+        CGFloat headViewHeight = 20 + 215 + 12 + firstCellHeight + cellHeight*3;
+        _headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, headViewHeight + 40 + 8 + 128 + 8 + 50)];
+        _headView.backgroundColor = kUIColorFromRGB(0xf5f5f5);
+    }
+    return _headView;
+}
+- (BookDetailHeadView *)bookDetailHeadView
+{
+    if (!_bookDetailHeadView) {
+        CGFloat cellHeight = 12 + 20 + 12 + 20 + 12;
+        NSString * intro = @"《红楼梦》，中国古典四大名著之首，清代作家曹雪芹创作的章回体长篇小说 ，又名《石头记》《金玉缘》。此书分为120回“程本”和80回“脂本”两种版本系统，程...";
+        CGFloat firstCellHeight = cellHeight - 20 + [[GlobalSingleton Singleton] getHeigthWithText:intro width:SCREEN_WIDTH - 30 font:[UIFont fontWithName:@"PingFangSC-Regular" size:14]].size.height;
+        CGFloat headViewHeight = 20 + 215 + 12 + firstCellHeight + cellHeight*3;
+        _bookDetailHeadView = [[BookDetailHeadView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, headViewHeight)];
+    }
+    return _bookDetailHeadView;
+}
+
+
+- (CommentBottomView *)commentView
+{
+    if (!_commentView) {
+        NSArray * imageArray = @[@"list_Bookbtn_shoucang",@"list_btn_pinglun3",@"list_btn_zan_s_gre2"];
+        _commentView = [[CommentBottomView alloc] initWithFrame:CGRectMake(0, _bookDetailHeadView.bottom, SCREEN_WIDTH, 40) ImageArray:imageArray];
+        _commentView.onClickCommentButton = ^{
+//            [self showKeyboardWithOrder:_wishModel.orderId commentedId:nil nick:@""];
+        };
+    }
+    return _commentView;
+}
+//- (BOOL)isInScreenView:(UIView *)inView withRect:(CGRect)rect{
+//    return CGRectIntersectsRect(inView.frame, rect);
+//}
+//- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+//{
+//    BOOL isShow =[self isInScreenView:self.view withRect:_commentView.frame];
+//    NSLog(@"isShow = %d",isShow);
+//}
+
+- (UIButton *)wantButton
+{
+    if (!_wantButton) {
+        _wantButton = [UIButton buttonWithType:UIButtonTypeSystem];
+        _wantButton.frame = CGRectMake(0, SCREEN_HEIGHT - 48, SCREEN_WIDTH, 48);
+        _wantButton.backgroundColor = MainColor;
+        [_wantButton setTitle:@"想要" forState:UIControlStateNormal];
+        [_wantButton setTitleColor:kUIColorFromRGB(0xffffff) forState:UIControlStateNormal];
+        _wantButton.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:17];
+    }
+    return _wantButton;
 }
 - (UITableView *)bookDetailTableView
 {

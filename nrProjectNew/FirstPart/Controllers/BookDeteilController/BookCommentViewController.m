@@ -1,24 +1,25 @@
 //
-//  BookFamilyViewController.m
+//  BookCommentViewController.m
 //  nrProjectNew
 //
-//  Created by 那然 on 2018/4/12.
+//  Created by 那然 on 2018/4/16.
 //  Copyright © 2018年 by Bo. All rights reserved.
 //
 
-#import "BookFamilyViewController.h"
+#import "BookCommentViewController.h"
 
-@interface BookFamilyViewController ()
+@interface BookCommentViewController ()
 
 @end
 
-@implementation BookFamilyViewController
+@implementation BookCommentViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.customNavBar setTitle:@"书香社区"];
-
+    [self.customNavBar setTitle:@"书评"];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

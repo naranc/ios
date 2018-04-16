@@ -18,6 +18,7 @@
 #import "PartinTaskViewController.h"
 #import "TaskDoneViewController.h"
 #import "ReportViewController.h"
+#import "AffirmBookViewController.h"
 
 @interface SecondViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -55,6 +56,9 @@
     [self.testArray addObject:@"任务完成"];
 
     [self.testArray addObject:@"举报"];
+    
+    [self.testArray addObject:@"确认收书"];
+
 
     [self.view addSubview:self.testTableView];
 }
@@ -151,7 +155,11 @@
         testVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:testVC animated:YES];
     }
-
+    if (indexPath.row == 11) {
+        AffirmBookViewController * testVC = [[AffirmBookViewController alloc] init];
+        testVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:testVC animated:YES];
+    }
 
 }
 - (void)didReceiveMemoryWarning {

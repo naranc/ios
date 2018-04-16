@@ -9,6 +9,7 @@
 #import "MyTabBarViewController.h"
 #import "MyTabBar.h"
 #import "PublishViewController.h"
+#import "DontaBookViewController.h"
 
 @interface MyTabBarViewController ()<MyTabBarDelegate>
 
@@ -34,9 +35,21 @@
     }
     
     
-    PublishViewController * publishVC = [[PublishViewController alloc] init];
+//    PublishViewController * publishVC = [[PublishViewController alloc] init];
+//    UINavigationController * navc = [[UINavigationController alloc] initWithRootViewController:publishVC];
+//    [self presentViewController:navc animated:YES completion:nil];
+
+    
+    DontaBookViewController * publishVC = [[DontaBookViewController alloc] init];
     UINavigationController * navc = [[UINavigationController alloc] initWithRootViewController:publishVC];
     [self presentViewController:navc animated:YES completion:nil];
+    
+//    SearchTagsViewController * searchVC = [[SearchTagsViewController alloc] init];
+//    UINavigationController *ANavigationController = [[UINavigationController alloc] initWithRootViewController:searchVC];
+//    [weakSelf.navigationController presentViewController:ANavigationController animated:YES completion:nil];
+
+    
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
