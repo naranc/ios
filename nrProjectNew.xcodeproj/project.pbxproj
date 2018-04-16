@@ -160,6 +160,10 @@
 		995DCE4620847BCB006BD515 /* BookTagsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 995DCE4520847BCB006BD515 /* BookTagsCollectionViewCell.m */; };
 		995DCE49208489D6006BD515 /* DBookCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 995DCE48208489D6006BD515 /* DBookCommentTableViewCell.m */; };
 		995DCE4C20849950006BD515 /* BookCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995DCE4B20849950006BD515 /* BookCommentViewController.m */; };
+		995DCE4F20849D70006BD515 /* BookCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 995DCE4E20849D70006BD515 /* BookCommentTableViewCell.m */; };
+		995DCE522084B5EC006BD515 /* PublishBCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995DCE512084B5EC006BD515 /* PublishBCommentViewController.m */; };
+		995DCE552084B86E006BD515 /* BookCommentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995DCE542084B86E006BD515 /* BookCommentDetailViewController.m */; };
+		995DCE582084B9D5006BD515 /* BCDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 995DCE572084B9D5006BD515 /* BCDetailTableViewCell.m */; };
 		99613BD71FE3A82D004A739C /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 99613BD61FE3A82D004A739C /* MyTabBar.m */; };
 		99613BDA1FE3A84E004A739C /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99613BD91FE3A84E004A739C /* MyTabBarViewController.m */; };
 		99613BEE1FE7AA40004A739C /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99613BED1FE7AA40004A739C /* FoundViewController.m */; };
@@ -660,6 +664,14 @@
 		995DCE48208489D6006BD515 /* DBookCommentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBookCommentTableViewCell.m; sourceTree = "<group>"; };
 		995DCE4A20849950006BD515 /* BookCommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookCommentViewController.h; sourceTree = "<group>"; };
 		995DCE4B20849950006BD515 /* BookCommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookCommentViewController.m; sourceTree = "<group>"; };
+		995DCE4D20849D70006BD515 /* BookCommentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookCommentTableViewCell.h; sourceTree = "<group>"; };
+		995DCE4E20849D70006BD515 /* BookCommentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookCommentTableViewCell.m; sourceTree = "<group>"; };
+		995DCE502084B5EC006BD515 /* PublishBCommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishBCommentViewController.h; sourceTree = "<group>"; };
+		995DCE512084B5EC006BD515 /* PublishBCommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublishBCommentViewController.m; sourceTree = "<group>"; };
+		995DCE532084B86E006BD515 /* BookCommentDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookCommentDetailViewController.h; sourceTree = "<group>"; };
+		995DCE542084B86E006BD515 /* BookCommentDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookCommentDetailViewController.m; sourceTree = "<group>"; };
+		995DCE562084B9D5006BD515 /* BCDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCDetailTableViewCell.h; sourceTree = "<group>"; };
+		995DCE572084B9D5006BD515 /* BCDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCDetailTableViewCell.m; sourceTree = "<group>"; };
 		99613BD51FE3A82D004A739C /* MyTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
 		99613BD61FE3A82D004A739C /* MyTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
 		99613BD81FE3A84E004A739C /* MyTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
@@ -1780,6 +1792,10 @@
 				995DCE0B20807EBA006BD515 /* BookDetailHeadView.m */,
 				995DCE0D20807F4D006BD515 /* TopTbTableViewCell.h */,
 				995DCE0E20807F4D006BD515 /* TopTbTableViewCell.m */,
+				995DCE4D20849D70006BD515 /* BookCommentTableViewCell.h */,
+				995DCE4E20849D70006BD515 /* BookCommentTableViewCell.m */,
+				995DCE562084B9D5006BD515 /* BCDetailTableViewCell.h */,
+				995DCE572084B9D5006BD515 /* BCDetailTableViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -2402,6 +2418,10 @@
 				995DCE0820807E07006BD515 /* bookImage.png */,
 				995DCE4A20849950006BD515 /* BookCommentViewController.h */,
 				995DCE4B20849950006BD515 /* BookCommentViewController.m */,
+				995DCE532084B86E006BD515 /* BookCommentDetailViewController.h */,
+				995DCE542084B86E006BD515 /* BookCommentDetailViewController.m */,
+				995DCE502084B5EC006BD515 /* PublishBCommentViewController.h */,
+				995DCE512084B5EC006BD515 /* PublishBCommentViewController.m */,
 			);
 			path = BookDeteilController;
 			sourceTree = "<group>";
@@ -2722,6 +2742,7 @@
 			files = (
 				99261C171FFE3C490099BA57 /* Utils.m in Sources */,
 				992D04241FDA5AAC00C6F90B /* SecondViewController.m in Sources */,
+				995DCE552084B86E006BD515 /* BookCommentDetailViewController.m in Sources */,
 				99613BF11FE7AA73004A739C /* ActivityViewController.m in Sources */,
 				995DCDEA207F7194006BD515 /* CommTableViewCell.m in Sources */,
 				99B72854207203C000936EFA /* HomeViewController.m in Sources */,
@@ -2738,6 +2759,7 @@
 				990ADDA51FD7B42D00944EAE /* AppDelegate.m in Sources */,
 				99613D6B1FF37A55004A739C /* BRAddressModel.m in Sources */,
 				99613D441FF2691B004A739C /* SubjectTableViewCell.m in Sources */,
+				995DCE582084B9D5006BD515 /* BCDetailTableViewCell.m in Sources */,
 				99CBD13F207F0C1000B1A746 /* TopSelectView.m in Sources */,
 				99613C221FE8DE6C004A739C /* WallTableViewCell.m in Sources */,
 				99613D0C1FF09839004A739C /* QuestionModel.m in Sources */,
@@ -2749,6 +2771,7 @@
 				99CBD14E207F382300B1A746 /* BookFamilyViewController.m in Sources */,
 				99613C971FECDC8B004A739C /* ZLBigImageCell.m in Sources */,
 				99199C8E2006096800E6D7F0 /* PGDatePickManagerHeaderView.m in Sources */,
+				995DCE4F20849D70006BD515 /* BookCommentTableViewCell.m in Sources */,
 				991818102010497100D91FB2 /* DetailWishViewController.m in Sources */,
 				99590314200886980011E202 /* KafkaArrowFooter.m in Sources */,
 				99B688D41FF3D70C00CCF58E /* CDonateViewController.m in Sources */,
@@ -2788,6 +2811,7 @@
 				995DCE2F20844904006BD515 /* AffirmBookViewController.m in Sources */,
 				99CBD11E207DDFB000B1A746 /* SearchBookViewController.m in Sources */,
 				99613C391FE8FBD3004A739C /* TAAnimatedDotView.m in Sources */,
+				995DCE522084B5EC006BD515 /* PublishBCommentViewController.m in Sources */,
 				99613D121FF0E4D1004A739C /* CarryTableViewCell.m in Sources */,
 				99613D651FF37A4C004A739C /* BaseView.m in Sources */,
 				99613C381FE8FBD3004A739C /* TAPageControl.m in Sources */,

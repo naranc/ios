@@ -138,6 +138,8 @@
         _userImageView.midSpacing = 4;
         _userImageView.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:14];
         _userImageView.imageSize = CGSizeMake(20, 20);
+        _userImageView.imageView.layer.cornerRadius = 20/2;
+        _userImageView.imageView.clipsToBounds = YES;
         [_userImageView setTitle:@"大道希音" forState:UIControlStateNormal];
         [_userImageView setTitleColor:kUIColorFromRGB(0x999999) forState:UIControlStateNormal];
         _userImageView.layoutStyle = ImageTextButtonNSTextAlignmentLeft;
@@ -184,11 +186,15 @@
         _reviewerButton.midSpacing = 8;
         _reviewerButton.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:14];
         _reviewerButton.imageSize = CGSizeMake(15, 15);
+        _reviewerButton.imageView.layer.cornerRadius = 15/2;
+        _reviewerButton.imageView.clipsToBounds = YES;
         [_reviewerButton setTitle:@"书评" forState:UIControlStateNormal];
         [_reviewerButton setTitleColor:kUIColorFromRGB(0x999999) forState:UIControlStateNormal];
         _reviewerButton.layoutStyle = ImageTextButtonNSTextAlignmentLeft;
         [_reviewerButton setImage:[UIImage imageNamed:@"userimagePic.jpg"] forState:UIControlStateNormal];
-        
+        [_reviewerButton addAction:^(UIButton *btn) {
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"ClickBookCommentNSNotification" object:nil];
+        }];
     }
     return _reviewerButton;
 }
@@ -209,6 +215,8 @@
         _statusButton.midSpacing = 8;
         _statusButton.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:14];
         _statusButton.imageSize = CGSizeMake(15, 15);
+        _statusButton.imageView.layer.cornerRadius = 15/2;
+        _statusButton.imageView.clipsToBounds = YES;
         [_statusButton setTitle:@"爱如繁星在借阅中…" forState:UIControlStateNormal];
         [_statusButton setTitleColor:kUIColorFromRGB(0x6FBBFF) forState:UIControlStateNormal];
         _statusButton.layoutStyle = ImageTextButtonNSTextAlignmentLeft;

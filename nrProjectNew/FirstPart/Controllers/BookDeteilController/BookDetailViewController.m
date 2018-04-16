@@ -13,6 +13,7 @@
 #import "CommentBottomView.h"
 #import "WantBookView.h"
 #import "CommentTitleView.h"
+#import "BookCommentViewController.h"
 
 @interface BookDetailViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -146,7 +147,15 @@
     [self.wantBookArray addObject:@"userimagePic.jpg"];
     [_headView addSubview:self.wantBookView];
     [_headView addSubview:self.commentTitleView];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(clickBookComment) name:@"ClickBookCommentNSNotification" object:nil];
 
+}
+- (void)clickBookComment
+{
+    //123
+    BookCommentViewController * bookCommentVC = [[BookCommentViewController alloc] init];
+    [self.navigationController pushViewController:bookCommentVC animated:YES];
 }
 - (CommentTitleView *)commentTitleView
 {
